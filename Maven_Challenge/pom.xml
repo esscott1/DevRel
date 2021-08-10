@@ -69,4 +69,16 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>local artifactory-releases</name>
+            <url>http://localhost/artifactory/maven-challenge</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>local artifactory-snapshots</name>
+            <url>http://localhost/artifactory/maven-challenge</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
